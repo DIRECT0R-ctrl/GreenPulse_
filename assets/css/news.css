@@ -304,3 +304,37 @@ body {
   }
 }
 
+@media(max-width: 758px)
+{
+  .content {
+    flex-direction: column;
+    flex-wrap;
+    wrap;
+   }
+
+   .main-article {
+    width: 100%;
+   }
+
+   .trending {
+      width: 100%;
+   }
+
+   .cards {
+    flex-direction: columns;
+    flex-wrap: wrap;
+    
+   }
+
+   .card {
+    width:100%;
+   }
+
+   .trending h3 {
+    text-align: center;
+   }
+   .trending ol {
+        text-align: center;
+        width 100%;
+   }
+}
